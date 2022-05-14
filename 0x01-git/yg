@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,c,d;
+    printf ("enter the square valuen/");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    scanf("%d",&d);
+    printf("yg op tho the sum of the given square value is:%d ",a+b+c+d);
+    
+    return 0;
+}

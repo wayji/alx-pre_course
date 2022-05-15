@@ -1,1 +1,27 @@
-wasp
+#include <stdio.h>
+
+int main() {
+char  gread;
+    printf ("please put in your gread: \n");
+    scanf( "%s", &gread);
+    switch (gread){
+    case 'A':
+         printf ("u got a wow");
+          break;
+    case 'B':
+       printf ("u got b daym loser") ;
+         break ;
+    case 'C':
+       printf ("u got c daym loser") ;
+          break ;
+    case 'D':
+       printf ("u got D daym loser") ;
+         break ;
+    case 'F':
+       printf ("u got F daym loser") ;
+    break ;
+    default :
+        printf("invalid gread");
+     }
+    return 0;
+    }

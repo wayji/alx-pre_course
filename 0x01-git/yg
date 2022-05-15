@@ -1,2 +1,18 @@
+<<<<<<< HEAD
 hi wasssb bro yoo 
 hi bro lelll 
+=======
+#include <stdio.h>
+
+int main() {
+    int a,b,c,d;
+    printf ("enter the square valuen/");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    scanf("%d",&d);
+    printf("yg op tho the sum of the given square value is:%d ",a+b+c+d);
+    
+    return 0;
+}
+>>>>>>> c3d852a19b4f5e5f0beb98c764c15d2d059654a4
